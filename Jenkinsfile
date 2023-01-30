@@ -8,7 +8,7 @@ pipeline {
         }
         stage('Test') { 
             steps {
-             echo "In Test Stage Boss" 
+             echo 1 
             }
         }
         stage('Deploy') { 
